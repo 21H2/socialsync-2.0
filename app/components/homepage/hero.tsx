@@ -54,7 +54,7 @@ export default function Hero({
         <div className="flex flex-col items-center justify-center px-6 text-center">
           <div className="mb-6 mt-10 sm:justify-center md:mb-4 md:mt-40">
             <div className="relative flex items-center rounded-full border bg-popover px-3 py-1 text-xs text-primary/60">
-              Introducing YouPac AI.
+              Introducing SocialSync.
               <Link
                 to="/dashboard"
                 rel="noreferrer"
@@ -158,7 +158,7 @@ export default function Hero({
                   </Button>
                 </ShineBorder>
               </Link>
-              <Link to={"https://github.com/michaelshimeles/youpac-ai"} target="_blank">
+              <Link to={"https://github.com/21H2/socialsync-2.0"} target="_blank">
                 <Button className="rounded-xl" variant="outline">View on GitHub</Button>
               </Link>
             </div>

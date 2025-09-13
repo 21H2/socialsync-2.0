@@ -70,7 +70,7 @@ export const Navbar = ({
                   className="flex items-center space-x-2 font-semibold text-xl"
                   prefetch="viewport"
                 >
-                  YouPac AI
+                  SocialSync
                 </Link>
                 <div className="hidden sm:flex items-center gap-1.5 px-3 py-1 bg-muted/50 rounded-full">
                   <span className="relative flex h-2 w-2 items-center justify-center">
@@ -108,7 +108,7 @@ export const Navbar = ({
               </div>
               <div className="flex w-full flex-col space-y-3 sm:flex-row sm:gap-3 sm:space-y-0 md:w-fit">
                 <Link
-                  to="https://github.com/michaelshimeles/youpac-ai"
+                  to="https://github.com/21H2/socialsync-2.0"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center justify-center"

@@ -1,6 +1,6 @@
-# YouPac AI - YouTube Content Creation Assistant
+# SocialSync - Content Creation Assistant
 
-An AI-powered platform that helps YouTube creators generate compelling titles, descriptions, thumbnails, and social media posts from their video content. Built with React Router v7, Convex, and OpenAI.
+An AI-powered platform that helps creators generate compelling titles, descriptions, thumbnails, and more from their content. Built with React Router v7, Convex, and OpenAI.
 
 ## Features
 
@@ -318,6 +318,6 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ---
 
-**Transform your YouTube content creation workflow with AI.** YouPac AI helps creators save hours by automatically generating optimized titles, descriptions, thumbnails, and social media posts from their video content.
+**Transform your content creation workflow with AI.** SocialSync helps creators save hours by automatically generating optimized titles, descriptions, thumbnails, and more from their content.
 
 Built with ❤️ using React Router v7, Convex, OpenAI, and ElevenLabs.
