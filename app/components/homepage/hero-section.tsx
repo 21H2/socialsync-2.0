@@ -29,7 +29,7 @@ export default function HeroSection({ loaderData }: { loaderData: LoaderData }) 
             <div className="pt-[4rem] px-[2rem]">
                 <div className="text-center">
                     <h1 className="mx-auto mt-16 max-w-xl text-5xl text-balance font-medium">Introducing SocialSync</h1>
-                    <p className="text-muted-foreground mx-auto mb-6 mt-4 text-balance text-xl">Generate compelling titles, descriptions, stunning thumbnails, and viral social media posts.</p>
+                    <p className="text-muted-foreground mx-auto mb-6 mt-4 text-balance text-xl">Generate compelling titles, descriptions, and stunning thumbnails.</p>
                     <div className="flex flex-col items-center gap-2 *:w-full sm:flex-row sm:justify-center sm:*:w-auto">
                         <Button
                             asChild
@@ -39,14 +39,7 @@ export default function HeroSection({ loaderData }: { loaderData: LoaderData }) 
                                 <span className="text-nowrap">Get Started</span>
                             </Link>
                         </Button>
-                        <Button
-                            asChild
-                            size="sm"
-                            variant="ghost">
-                            <Link to="https://x.com/rasmickyy/status/1937171784589029838">
-                                <span className="text-nowrap">View Demo</span>
-                            </Link>
-                        </Button>
+                        {/* X.com demo button removed */}
                     </div>
                 </div>
                 {stats && (

@@ -1,5 +1,5 @@
 "use client";
-import { UserButton } from "@clerk/react-router";
+// import { UserButton } from "@clerk/react-router";
 import { Github, Menu, X } from "lucide-react";
 import React, { useCallback } from "react";
 import { Link } from "react-router";
@@ -108,54 +108,14 @@ export const Navbar = ({
               </div>
               <div className="flex w-full flex-col space-y-3 sm:flex-row sm:gap-3 sm:space-y-0 md:w-fit">
                 <Link
-                  to="https://github.com/21H2/socialsync-2.0"
+                  to="https://github.com/21H2"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center justify-center"
                 >
                   <Github className="w-5 h-5" />
                 </Link>
-                {loaderData?.isSignedIn ? (
-                  <div className="flex items-center gap-3">
-                    <Button asChild size="sm">
-                      <Link to={dashboardLink} prefetch="viewport">
-                        <span>{dashboardText}</span>
-                      </Link>
-                    </Button>
-                    <UserButton />
-                  </div>
-                ) : (
-                  <>
-                    <Button
-                      asChild
-                      variant="outline"
-                      size="sm"
-                      className={cn(isScrolled && "lg:hidden")}
-                    >
-                      <Link to="/sign-in" prefetch="viewport">
-                        <span>Login</span>
-                      </Link>
-                    </Button>
-                    <Button
-                      asChild
-                      size="sm"
-                      className={cn(isScrolled && "lg:hidden")}
-                    >
-                      <Link to="/sign-up" prefetch="viewport">
-                        <span>Sign Up</span>
-                      </Link>
-                    </Button>
-                    <Button
-                      asChild
-                      size="sm"
-                      className={cn(isScrolled ? "lg:inline-flex" : "hidden")}
-                    >
-                      <Link to="/sign-up" prefetch="viewport">
-                        <span>{dashboardText}</span>
-                      </Link>
-                    </Button>
-                  </>
-                )}
+                {/* Connect/auth buttons and user button removed */}
               </div>
             </div>
           </div>
