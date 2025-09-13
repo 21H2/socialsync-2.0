@@ -72,7 +72,9 @@ export default function HeroSection({ loaderData }: { loaderData: LoaderData }) 
                     </div>
                 )}
                 <div className="flex justify-center">
-                    <VideoPlayer src="https://dwdwn8b5ye.ufs.sh/f/MD2AM9SEY8Gu3B3mczu7JPAkBlwgiWGr6XbOSue4ZFzhR9QK" />
+                    <div className="w-full max-w-xl h-64 bg-muted flex items-center justify-center rounded-lg border text-muted-foreground text-xl">
+                        [ Placeholder Image or Demo Preview ]
+                    </div>
                 </div>
             </div>
         </section>
